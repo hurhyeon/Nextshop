@@ -26,6 +26,7 @@ export const getStaticProps = async () => {
   'https://api.coinstats.app/public/v1/coins?skip=0'
  )
 
+ 
   return {
   props: {
    coinData: result.data,
